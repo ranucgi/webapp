@@ -9,7 +9,7 @@ public class Welcome {
 	@RequestMapping("home")
 	@ResponseBody
 	public String show() {
-		return"welcome to boot application";
+		return"welcome to boot";
 	}
 
 }
